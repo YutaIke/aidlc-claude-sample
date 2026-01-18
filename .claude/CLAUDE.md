@@ -8,6 +8,21 @@ This project uses AI-DLC, an adaptive software development workflow that intelli
 - `/aidlc-resume` - Resume an existing workflow session
 - `/aidlc-status` - Check current workflow status
 
+## Language Preference / 言語設定
+
+- **MANDATORY**: All communication with the user must be in Japanese (日本語)
+- All generated question files, completion messages, and summaries must be in Japanese
+- Artifact file names can remain in English, but content descriptions should be in Japanese
+- ユーザーとのすべてのやりとりは日本語で行うこと
+
+## Question Style / 質問スタイル
+
+- **MANDATORY**: Ask questions ONE AT A TIME in conversational mode (会話形式では1問ずつ質問する)
+- Wait for user's answer before proceeding to the next question
+- Record each answer in the corresponding question file as answers are received
+- After each answer, briefly acknowledge the response before asking the next question
+- 質問は必ず1問ずつ行い、回答を待ってから次の質問に進むこと
+
 ## The Three-Phase Lifecycle
 
 ```
